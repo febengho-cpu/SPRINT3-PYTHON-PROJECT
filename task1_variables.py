@@ -45,4 +45,4 @@ for game in video_game_sales:
 avg_global_sales = sum(global_sales) / total_games
 print("Average global sales:", avg_global_sales)
 top_game_share = (video_game_sales[0][GLOBAL_SALES] / sum(global_sales)) * 100 
-print("Top game share:", top_game_share, "%
+print("Top game share:", top_game_share, "%")
